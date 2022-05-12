@@ -7,6 +7,7 @@ app = FastAPI()
 async def root():
     print("Jake")
     print("Mayo")
+    print("ryan")
     return {"message": "Hello World"}
 
 
